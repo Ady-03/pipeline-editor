@@ -4,7 +4,15 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Tuple
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "https://*.vercel.app"
+    ],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class Node(BaseModel):
     id: str
