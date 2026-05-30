@@ -1,6 +1,6 @@
-# VectorShift Pipeline Editor
+# Pipeline Editor
 
-A full-stack visual AI pipeline editor — build AI workflows by connecting nodes on a canvas, similar to n8n or LangChain. Built for VectorShift's internship assessment.
+A full-stack visual AI pipeline editor — build AI workflows by connecting nodes on a canvas, similar to n8n or LangChain.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
